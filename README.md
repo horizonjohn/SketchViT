@@ -7,7 +7,7 @@ Fine-Grained Sketch-Based Image Retrieval
 <div class="center">
 
 | Methods |  Acc.@1  |  Acc.@5  |  Acc.@10  |
-|:------------:|:--------:|:--------:|
+|:------------------:|:--------:|:--------:|
 | Triplet-SN | 33.75 | 65.94 | 79.26 |
 | Triplet-Att-SN | 37.15 | 67.80 | 82.97 |
 | OnTheFly | 39.01 | 75.85 | 87.00 |
