@@ -30,7 +30,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 | Type |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
-| feat[0] | 64.61 | 89.32 | 95.37 |  [logs](./logs/)  |
+| feat[0] | 64.41 | 89.32 | 95.37 |  [logs](./logs/)  |
 | mean | 62.99 | 88.97 | 94.66 |  [logs](./logs/)  |
 | max | 59.79 | 91.46 | 95.02 |  [logs](./logs/)  |
 | **MLP Block** | **67.62** | **91.10** | **95.37** |  [logs](./logs/)  |
