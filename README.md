@@ -6,18 +6,85 @@ Fine-Grained Sketch-Based Image Retrieval
 
 <div class="center">
 
-| Methods |  Acc.@1  |  Acc.@5  |  Acc.@10  |
-|:------------------:|:--------:|:--------:|
-| Triplet-SN | 33.75 | 65.94 | 79.26 |
-| Triplet-Att-SN | 37.15 | 67.80 | 82.97 |
-| OnTheFly | 39.01 | 75.85 | 87.00 |
-| CMHM-SBIR | 51.70 | 80.50 | 88.85 |
-| SketchAA | 52.89 | 73.80 | 94.88 |
-| Semi-Sup | 60.20 | 78.10 | 90.81 |
-| StyleMeUp | 62.86 | 79.60 | 91.14 |
-| NT-SBIR | 64.80 | 79.10 | - |
-| Ours | 67.62 | 91.10 | 95.37 |
+| Methods (QMUL-Chair-V2) |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
+|:--------:|:--------:|:--------:|:--------:|:--------:|
+| **Triplet-SN** (CVPR 2016) | 33.75 | 65.94 | 79.26 |  [logs](./logs/)  |
+| **Triplet-Att-SN** (CVPR 2017) | 37.15 | 67.80 | 82.97 |  [logs](./logs/)  |
+| **OnTheFly** (CVPR 2020) | 39.01 | 75.85 | 87.00 |  [logs](./logs/)  |
+| **CMHM-SBIR** (BMVC 2020) | 51.70 | 80.50 | 88.85 |  [logs](./logs/)  |
+| **SketchAA** (ICCV 2021) | 52.89 | 73.80 | 94.88 |  [logs](./logs/)  |
+| **Semi-Sup** (CVPR 2021) | 60.20 | 78.10 | 90.81 |  [logs](./logs/)  |
+| **StyleMeUp** (CVPR 2021) | 62.86 | 79.60 | 91.14 |  [logs](./logs/)  |
+| **NT-SBIR** (CVPR 2022) | 64.80 | 79.10 | - |  [logs](./logs/)  |
+| **XModalViT** (BMVC 2022) | 63.48 | - | 95.02 |  [logs](./logs/)  |
+| **SkechMLP (Ours)** | **67.62** | **91.10** | **95.37** |  [logs](./logs/)  |
 
 </div>
 
+
+## 2. Ablation Study
+
+### 2.1 Encoder Type
+
+<div class="center">
+
+| Type |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
+|:--------:|:--------:|:--------:|:--------:|:--------:|
+| feat[0] | 64.61 | 89.32 | 95.37 |  [logs](./logs/)  |
+| mean | 62.99 | 88.97 | 94.66 |  [logs](./logs/)  |
+| max | 59.79 | 91.46 | 95.02 |  [logs](./logs/)  |
+| **MLP Block** | **67.62** | **91.10** | **95.37** |  [logs](./logs/)  |
+
+</div>
+
+### 2.2 Cross Block Nums
+
+<div class="center">
+
+| Nums |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
+|:--------:|:--------:|:--------:|:--------:|:--------:|
+| 1 | 65.13 | 91.10 | 93.59 |  [logs](./logs/)  |
+| 2 | 67.26 | 90.39 | 95.73 |  [logs](./logs/)  |
+| **3** | **67.62** | 91.10 | 95.37 |  [logs](./logs/)  |
+| 4 | 65.48 | **91.82** | 94.66 |  [logs](./logs/)  |
+| 5 | 62.63 | 89.68 | **96.09** |  [logs](./logs/)  |
+
+</div>
+
+### 2.3 Loss Function
+
+<div class="center">
+
+| L<sub>cross</sub> | L<sub>self</sub> | L<sub>con</sub> |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| √ | - | - | 53.74 | 81.85 | 90.75 |  [logs](./logs/)  |
+| √ | √ | - | 52.31 | 79.72 | 90.75 |  [logs](./logs/)  |
+| √ | √* | - | 52.67 | 83.63 | 90.75 |  [logs](./logs/)  |
+| √ | - | √ | 62.99 | 90.04 | 95.02 |  [logs](./logs/)  |
+| √ | √ | √ | **67.62** | **91.10** | **95.37** |  [logs](./logs/)  |
+
+</div>
+
+### 2.4 Embedding Dimension
+
+<div class="center">
+
+| Dims |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
+|:--------:|:--------:|:--------:|:--------:|:--------:|
+| 128 | 64.06 | 88.97 | 95.37 |  [logs](./logs/)  |
+| **256** | **67.62** | **91.10** | **95.37** |  [logs](./logs/)  |
+| 512 | 61.21 | 90.39 | 95.02 |  [logs](./logs/)  |
+
+</div>
+
+### 2.5 Load Datasets
+
+<div class="center">
+
+| Methods |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
+|:--------:|:--------:|:--------:|:--------:|:--------:|
+| LD@A | 52.67 | 83.99 | 92.17 |  [logs](./logs/)  |
+| **LD@B** | **67.62** | 91.10 | 95.37 |  [logs](./logs/)  |
+
+</div>
 
