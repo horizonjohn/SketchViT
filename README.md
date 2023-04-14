@@ -17,7 +17,7 @@ Fine-Grained Sketch-Based Image Retrieval
 | **StyleMeUp** (CVPR 2021) | 62.86 | 79.60 | 91.14 |  [logs](./logs/)  |
 | **NT-SBIR** (CVPR 2022) | 64.80 | 79.10 | - |  [logs](./logs/)  |
 | **XModalViT** (BMVC 2022) | 63.48 | - | 95.02 |  [logs](./logs/)  |
-| **SkechMLP (Ours)** | **67.62** | **91.10** | **95.37** |  [logs](./logs/Ours.log)  |
+| **SkechMLP (Ours)** | **67.62** | **91.10** | **95.37** |  [logs](./logs/ours.log)  |
 
 </div>
 
@@ -33,7 +33,7 @@ Fine-Grained Sketch-Based Image Retrieval
 | feat[0] | 64.41 | 89.32 | 95.37 |  [logs](./logs/type/0.log)  |
 | mean | 62.99 | 88.97 | 94.66 |  [logs](./logs/type/mean.log)  |
 | max | 59.79 | 91.46 | 95.02 |  [logs](./logs/type/max.log)  |
-| **MLP Block** | **67.62** | **91.10** | **95.37** |  [logs](./logs/Ours.log)  |
+| **MLP Block** | **67.62** | **91.10** | **95.37** |  [logs](./logs/ours.log)  |
 
 </div>
 
@@ -45,7 +45,7 @@ Fine-Grained Sketch-Based Image Retrieval
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 | 1 | 65.13 | 91.10 | 93.59 |  [logs](./logs/nums/1.log)  |
 | 2 | 67.26 | 90.39 | 95.73 |  [logs](./logs/nums/2.log)  |
-| **3** | **67.62** | 91.10 | 95.37 |  [logs](./logs/Ours.log)  |
+| **3** | **67.62** | 91.10 | 95.37 |  [logs](./logs/ours.log)  |
 | 4 | 65.48 | **91.82** | 94.66 |  [logs](./logs/nums/4.log)  |
 | 5 | 62.63 | 89.68 | **96.09** |  [logs](./logs/nums/5.log)  |
 
@@ -61,7 +61,7 @@ Fine-Grained Sketch-Based Image Retrieval
 | √ | √ | - | 52.31 | 79.72 | 90.75 |  [logs](./logs/loss/lcon.log)  |
 | √ | √* | - | 52.67 | 83.63 | 90.75 |  [logs](./logs/loss/last.log)  |
 | √ | - | √ | 62.99 | 90.04 | 95.02 |  [logs](./logs/loss/self.log)  |
-| √ | √ | √ | **67.62** | **91.10** | **95.37** |  [logs](./logs/Ours.log)  |
+| √ | √ | √ | **67.62** | **91.10** | **95.37** |  [logs](./logs/ours.log)  |
 
 </div>
 
@@ -72,7 +72,7 @@ Fine-Grained Sketch-Based Image Retrieval
 | Dims |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 | 128 | 64.06 | 88.97 | 95.37 |  [logs](./logs/dims/128.log)  |
-| **256** | **67.62** | **91.10** | **95.37** |  [logs](./logs/Ours.log)  |
+| **256** | **67.62** | **91.10** | **95.37** |  [logs](./logs/ours.log)  |
 | 512 | 61.21 | 90.39 | 95.02 |  [logs](./logs/dims/512.log)  |
 
 </div>
@@ -84,7 +84,7 @@ Fine-Grained Sketch-Based Image Retrieval
 | Methods |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 | LD@A | 52.67 | 83.99 | 92.17 |  [logs](./logs/load/a.log)  |
-| **LD@B** | **67.62** | 91.10 | 95.37 |  [logs](./logs/Ours.log)  |
+| **LD@B** | **67.62** | 91.10 | 95.37 |  [logs](./logs/ours.log)  |
 
 </div>
 
