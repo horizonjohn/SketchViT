@@ -72,8 +72,8 @@ Fine-Grained Sketch-Based Image Retrieval
 
 | Dims |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
-| 128 | 64.06 | 88.97 | 95.37 |  [logs](./logs/dims/128.log)  |
-| **256** | **67.62** | **91.10** | **95.37** |  [logs](./logs/ours.log)  |
+| 128 | 64.41 | 86.48 | **95.73** |  [logs](./logs/dims/128.log)  |
+| **256** | **67.62** | 91.10 | **95.37** |  [logs](./logs/ours.log)  |
 | 512 | 61.21 | 90.39 | 95.02 |  [logs](./logs/dims/512.log)  |
 
 </div>
