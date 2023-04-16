@@ -61,6 +61,7 @@ Fine-Grained Sketch-Based Image Retrieval
 | √ | √ | - | 52.31 | 79.72 | 90.75 |  [logs](./logs/loss/lcon.log)  |
 | √ | √* | - | 52.67 | 83.63 | 90.75 |  [logs](./logs/loss/last.log)  |
 | √ | - | √ | 62.99 | 90.04 | 95.02 |  [logs](./logs/loss/self.log)  |
+| √ | √* | √ | 66.90 | 91.10 | 95.37 |  [logs](./logs/loss/3loss.log)  |
 | √ | √ | √ | **67.62** | **91.10** | **95.37** |  [logs](./logs/ours.log)  |
 
 </div>
