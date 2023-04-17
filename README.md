@@ -24,7 +24,18 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ## 2. Ablation Study
 
-### 2.1 Encoder Type
+### 2.1 Load Datasets
+
+<div class="center">
+
+| Methods |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
+|:--------:|:--------:|:--------:|:--------:|:--------:|
+| LD@A | 52.67 | 83.99 | 92.17 |  [logs](./logs/load/a.log)  |
+| **LD@B** | **67.62** | 91.10 | 95.37 |  [logs](./logs/ours.log)  |
+
+</div>
+
+### 2.2 Encoder Type
 
 <div class="center">
 
@@ -37,7 +48,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 </div>
 
-### 2.2 Cross Block Nums
+### 2.3 Cross Block Nums
 
 <div class="center">
 
@@ -51,7 +62,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 </div>
 
-### 2.3 Loss Function
+### 2.4 Loss Function
 
 <div class="center">
 
@@ -66,7 +77,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 </div>
 
-### 2.4 Embedding Dimension
+### 2.5 Embedding Dimension
 
 <div class="center">
 
@@ -74,18 +85,8 @@ Fine-Grained Sketch-Based Image Retrieval
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 | 128 | 64.41 | 86.48 | **95.73** |  [logs](./logs/dims/128.log)  |
 | **256** | **67.62** | **91.10** | 95.37 |  [logs](./logs/ours.log)  |
-| 512 | 61.21 | 90.39 | 95.02 |  [logs](./logs/dims/512.log)  |
+| 512 | 64.06 | 90.39 | 94.31 |  [logs](./logs/dims/512.log)  |
 
 </div>
 
-### 2.5 Load Datasets
-
-<div class="center">
-
-| Methods |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
-|:--------:|:--------:|:--------:|:--------:|:--------:|
-| LD@A | 52.67 | 83.99 | 92.17 |  [logs](./logs/load/a.log)  |
-| **LD@B** | **67.62** | 91.10 | 95.37 |  [logs](./logs/ours.log)  |
-
-</div>
 
