@@ -1,4 +1,4 @@
-# SketchMLP
+# SketchViT
 Fine-Grained Sketch-Based Image Retrieval
 
 
