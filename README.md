@@ -23,8 +23,6 @@ Fine-Grained Sketch-Based Image Retrieval
 
 </div>
 
-<br>
-
 ### 1.2 Clothes-V1
 
 <div class="center">
@@ -43,8 +41,6 @@ Fine-Grained Sketch-Based Image Retrieval
 | **SkechMLP (Ours)** | **67.62** | **91.10** | **95.37** |  [logs](./logs/ours.log)  |
 
 </div>
-
-<br>
 
 ### 1.3 ViT vs MLP
 
