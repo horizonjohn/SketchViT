@@ -4,6 +4,8 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ## 1. Experimental results
 
+### 1.1 QMUL-Chair-V2
+
 <div class="center">
 
 | Methods (QMUL-Chair-V2) |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
@@ -21,12 +23,41 @@ Fine-Grained Sketch-Based Image Retrieval
 
 </div>
 
+<br>
+
+### 1.2 Clothes-V1
+
+<div class="center">
+
+| Methods (Clothes-V1) |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
+|:--------:|:--------:|:--------:|:--------:|:--------:|
+| **Triplet-SN** (CVPR 2016) | 33.75 | 65.94 | 79.26 |  [logs](./logs/baseline/triplet.txt)  |
+| **Triplet-Att-SN** (CVPR 2017) | 37.15 | 67.80 | 82.97 |  [logs](./logs/baseline/triplet_att.txt)  |
+| **OnTheFly** (CVPR 2020) | 39.01 | 75.85 | 87.00 |  [logs](./logs/baseline/onthefly.txt)  |
+| **CMHM-SBIR** (BMVC 2020) | 51.70 | 80.50 | 88.85 |  [logs](./logs/baseline/CMHM.txt)  |
+| **SketchAA** (ICCV 2021) | 52.89 | 73.80 | 94.88 |  [logs](./logs/)  |
+| **Semi-Sup** (CVPR 2021) | 60.20 | 78.10 | 90.81 |  [logs](./logs/)  |
+| **StyleMeUp** (CVPR 2021) | 62.86 | 79.60 | 91.14 |  [logs](./logs/)  |
+| **NT-SBIR** (CVPR 2022) | 64.80 | 79.10 | - |  [logs](./logs/)  |
+| **XModalViT** (BMVC 2022) | 63.48 | - | 95.02 |  [logs](./logs/)  |
+| **SkechMLP (Ours)** | **67.62** | **91.10** | **95.37** |  [logs](./logs/ours.log)  |
+
+</div>
+
+<br>
+
+### 1.3 ViT vs MLP
+
+<div class="center">
+
 | Backbone (Acc.@1) |  CIFAR-10  |  CIFAR-100  |  Tiny ImageNet  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
-| ViT-S/16 | 98.58 | 90.21 | 83.23 |  [logs](./logs/mlp/)  |
-| **ViT-S/16(MLP)** | 98.59 | 89.92 | 83.53 |  [logs](./logs/mlp/)  |
-| ViT-B/16 | 98.29 | 88.27 | 81.39 |  [logs](./logs/mlp/)  |
-| **ViT-B/16(MLP)** | 98.31 | 88.31 | 82.02 |  [logs](./logs/mlp/)  |
+| ViT-S/16 | 98.58 | 90.21 | 83.23 |  [logs](./logs/mlp/ViT_S/)  |
+| **ViT-S/16(MLP)** | 98.59 | 89.92 | 83.53 |  [logs](./logs/mlp/MLP_S)  |
+| ViT-B/16 | 98.29 | 88.27 | 81.39 |  [logs](./logs/mlp/ViT_B)  |
+| **ViT-B/16(MLP)** | 98.31 | 88.31 | 82.02 |  [logs](./logs/mlp/MLP_B)  |
+
+</div>
 
 
 ## 2. Ablation Study
