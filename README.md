@@ -50,7 +50,7 @@ Fine-Grained Sketch-Based Image Retrieval
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 | ViT-S/16 | 98.58 | 90.21 | 83.23 |  [logs](./logs/mlp/ViT_S/)  |
 | **ViT-S/16(MLP)** | 98.59 | 89.92 | 83.53 |  [logs](./logs/mlp/MLP_S)  |
-| ViT-B/16 | 98.29 | 88.27 | 81.39 |  [logs](./logs/mlp/ViT_B)  |
+| ViT-B/16 | 98.26 | 88.27 | 81.39 |  [logs](./logs/mlp/ViT_B)  |
 | **ViT-B/16(MLP)** | 98.31 | 88.31 | 82.02 |  [logs](./logs/mlp/MLP_B)  |
 
 </div>
