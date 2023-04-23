@@ -19,7 +19,7 @@ Fine-Grained Sketch-Based Image Retrieval
 | **StyleMeUp** (CVPR 2021) | 62.86 | 79.60 | 91.14 |  [logs](./logs/)  |
 | **NT-SBIR** (CVPR 2022) | 64.80 | 79.10 | - |  [logs](./logs/)  |
 | **XModalViT** (BMVC 2022) | 63.48 | - | 95.02 |  [logs](./logs/)  |
-| **SkechMLP (Ours)** | **67.62** | **91.10** | **95.37** |  [logs](./logs/ours.log)  |
+| **SketchViT (Ours)** | **67.62** | **91.10** | **95.37** |  [logs](./logs/ours.log)  |
 
 </div>
 
@@ -38,7 +38,7 @@ Fine-Grained Sketch-Based Image Retrieval
 | **StyleMeUp** (CVPR 2021) | 62.86 | 79.60 | 91.14 |  [logs](./logs/)  |
 | **NT-SBIR** (CVPR 2022) | 64.80 | 79.10 | - |  [logs](./logs/)  |
 | **XModalViT** (BMVC 2022) | 63.48 | - | 95.02 |  [logs](./logs/)  |
-| **SkechMLP (Ours)** | **67.62** | **91.10** | **95.37** |  [logs](./logs/ours.log)  |
+| **SketchViT (Ours)** | **67.62** | **91.10** | **95.37** |  [logs](./logs/ours.log)  |
 
 </div>
 
