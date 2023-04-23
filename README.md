@@ -65,7 +65,7 @@ Fine-Grained Sketch-Based Image Retrieval
 | Methods |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 | LD@A | 52.67 | 83.99 | 92.17 |  [logs](./logs/load/a.log)  |
-| **LD@B** | **67.62** | 91.10 | 95.37 |  [logs](./logs/ours.log)  |
+| **LD@B** | **67.62** | **91.10** | **95.37** |  [logs](./logs/ours.log)  |
 
 </div>
 
