@@ -30,10 +30,10 @@ Fine-Grained Sketch-Based Image Retrieval
 
 | Methods (Clothes-V1) |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
-| **Triplet-SN** (CVPR 2016) | 33.75 | 65.94 | 79.26 |  [logs](./logs/clothes/triplet.txt)  |
-| **Triplet-Att-SN** (CVPR 2017) | 37.15 | 67.80 | 82.97 |  [logs](./logs/clothes/triplet_att.txt)  |
-| **B-Siamese** (BMVC 2020) | 40.56 | 71.83 | 85.76 |  [logs](./logs/clothes/triplet_inception.txt)  |
-| **SketchViT (Ours)** | **89.09** | **97.82** | **98.18** |  [logs](./logs/clothes/SketchViT.log)  |
+| **Triplet-SN** (CVPR 2016) | 72.54 | 98.70 | 99.46 |  [logs](./logs/clothes/triplet.txt)  |
+| **Triplet-Att-SN** (CVPR 2017) | 75.78 | 98.59 | 99.24 |  [logs](./logs/clothes/triplet_att.txt)  |
+| **B-Siamese** (BMVC 2020) | 75.57 | 98.81 | 99.68 |  [logs](./logs/clothes/triplet_inception.txt)  |
+| **SketchViT (Ours)** | **89.09** | 97.82 | 98.18 |  [logs](./logs/clothes/SketchViT.log)  |
 
 </div>
 
