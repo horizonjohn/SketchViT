@@ -9,7 +9,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ### 2.1 QMUL-Chair-V2
 
-<div class="center">
+<div align=center>
 
 | Methods (QMUL-Chair-V2) |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -29,7 +29,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ### 2.2 Clothes-V1
 
-<div class="center">
+<div align=center>
 
 | Methods (Clothes-V1) |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -42,7 +42,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ### 2.3 ViT vs MLP
 
-<div class="center">
+<div align=center>
 
 | Backbone (Acc.@1) |  CIFAR-10  |  CIFAR-100  |  Tiny ImageNet  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -58,7 +58,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ### 3.1 Load Datasets
 
-<div class="center">
+<div align=center>
 
 | Methods |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -69,7 +69,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ### 3.2 Encoder Type
 
-<div class="center">
+<div align=center>
 
 | Type |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -82,7 +82,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ### 3.3 Cross Block Nums
 
-<div class="center">
+<div align=center>
 
 | Nums |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -96,7 +96,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ### 3.4 Loss Function
 
-<div class="center">
+<div align=center>
 
 | L<sub>cross</sub> | L<sub>self</sub> | L<sub>con</sub> |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -111,7 +111,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ### 3.5 Embedding Dimension
 
-<div class="center">
+<div align=center>
 
 | Dims |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -126,15 +126,15 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ### 4.1 Retrieval Performance
 
-<div align=center><img src="./figs/retrieval_performance.png"></div>
+<div align=center><img src="./figs/retrieval_performance.png" width = 90%></div>
 
 ### 4.2 Attention Maps (Grad-CAM)
 
-<div align=center><img src="./figs/grad_cam.png"></div>
+<div align=center><img src="./figs/grad_cam.png" width = 60%></div>
 
 ### 4.3 Feature Embedding (T-SNE)
 
-<div align=center><img src="./figs/t_sne.png"></div>
+<div align=center><img src="./figs/t_sne.png" width = 90%></div>
 
 <br>
 
