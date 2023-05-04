@@ -1,10 +1,13 @@
 # SketchViT
 Fine-Grained Sketch-Based Image Retrieval
 
+## 1. Introduction
 
-## 1. Experimental results
 
-### 1.1 QMUL-Chair-V2
+
+## 2. Experimental Results
+
+### 2.1 QMUL-Chair-V2
 
 <div class="center">
 
@@ -24,7 +27,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 </div>
 
-### 1.2 Clothes-V1
+### 2.2 Clothes-V1
 
 <div class="center">
 
@@ -37,7 +40,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 </div>
 
-### 1.3 ViT vs MLP
+### 2.3 ViT vs MLP
 
 <div class="center">
 
@@ -51,9 +54,9 @@ Fine-Grained Sketch-Based Image Retrieval
 </div>
 
 
-## 2. Ablation Study
+## 3. Ablation Study
 
-### 2.1 Load Datasets
+### 3.1 Load Datasets
 
 <div class="center">
 
@@ -64,7 +67,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 </div>
 
-### 2.2 Encoder Type
+### 3.2 Encoder Type
 
 <div class="center">
 
@@ -72,12 +75,12 @@ Fine-Grained Sketch-Based Image Retrieval
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 | feat[0] | 64.41 | 89.32 | 95.37 |  [logs](./logs/type/0.log)  |
 | mean | 62.99 | 88.97 | 94.66 |  [logs](./logs/type/mean.log)  |
-| max | 59.79 | 91.46 | 95.02 |  [logs](./logs/type/max.log)  |
-| **MLP Block** | **67.62** | **91.10** | **95.37** |  [logs](./logs/ours.log)  |
+| max | 59.79 | **91.46** | 95.02 |  [logs](./logs/type/max.log)  |
+| **MLP Block** | **67.62** | 91.10 | **95.37** |  [logs](./logs/ours.log)  |
 
 </div>
 
-### 2.3 Cross Block Nums
+### 3.3 Cross Block Nums
 
 <div class="center">
 
@@ -91,7 +94,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 </div>
 
-### 2.4 Loss Function
+### 3.4 Loss Function
 
 <div class="center">
 
@@ -106,7 +109,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 </div>
 
-### 2.5 Embedding Dimension
+### 3.5 Embedding Dimension
 
 <div class="center">
 
@@ -117,5 +120,22 @@ Fine-Grained Sketch-Based Image Retrieval
 | 512 | 64.06 | 90.39 | 94.31 |  [logs](./logs/dims/512.log)  |
 
 </div>
+
+
+## 4.  Visualization
+
+### 4.1 Retrieval Performance
+
+<div align=center><img src="./figs/retrieval_performance.png"></div>
+
+### 4.2 Attention Maps (Grad-CAM)
+
+<div align=center><img src="./figs/grad_cam.png"></div>
+
+### 4.3 Feature Embedding (T-SNE)
+
+<div align=center><img src="./figs/t_sne.png"></div>
+
+<br>
 
 
