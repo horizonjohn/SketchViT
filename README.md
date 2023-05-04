@@ -18,6 +18,27 @@ After undergoing data augmentation, the sketches and images from each minibatch 
 
 Our pre-trained model is avialable [**SketchViT Weights**](https://drive.google.com/drive/folders/1q9ZBhmFUC4NdkF-uRvgiArvxWUVPSo_x).
 
+#### 1.1.1 Train model
+
+- (i) First, download the above data, or you can also rename your own data according to the above data naming format.
+- (ii) Put the dataset into (./src/datasets/) directory.
+- (iii) You can adjust the parameters of the model according to your needs.
+- (iv) Use the following command for model training:
+
+```
+cd ./src
+
+python main.py --dataset ClothesV1
+```
+
+#### 1.1.2 Evaluate model
+
+- Modify the path of the training model and use the following command:
+
+```
+python accuracy.py
+```
+
 ### 1.2 Clothes-V1
 
 <div align=center><img src="./figs/clothes.png" width = 68%></div>
