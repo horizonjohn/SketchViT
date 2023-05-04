@@ -9,7 +9,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ### 2.1 QMUL-Chair-V2
 
-<div align=center>
+<div align=left>
 
 | Methods (QMUL-Chair-V2) |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -29,7 +29,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ### 2.2 Clothes-V1
 
-<div align=center>
+<div align=left>
 
 | Methods (Clothes-V1) |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -40,9 +40,9 @@ Fine-Grained Sketch-Based Image Retrieval
 
 </div>
 
-### 2.3 ViT vs MLP
+### 2.3 ViT with & without MLP
 
-<div align=center>
+<div align=left>
 
 | Backbone (Acc.@1) |  CIFAR-10  |  CIFAR-100  |  Tiny ImageNet  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -58,7 +58,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ### 3.1 Load Datasets
 
-<div align=center>
+<div align=left>
 
 | Methods |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -69,7 +69,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ### 3.2 Encoder Type
 
-<div align=center>
+<div align=left>
 
 | Type |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -82,7 +82,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ### 3.3 Cross Block Nums
 
-<div align=center>
+<div align=left>
 
 | Nums |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -96,7 +96,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ### 3.4 Loss Function
 
-<div align=center>
+<div align=left>
 
 | L<sub>cross</sub> | L<sub>self</sub> | L<sub>con</sub> |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -111,7 +111,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ### 3.5 Embedding Dimension
 
-<div align=center>
+<div align=left>
 
 | Dims |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
