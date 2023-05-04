@@ -9,7 +9,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 <br>
 
-Here is our SketchViT framework. After undergoing data augmentation, the sketches and images from each minibatch are used as inputs and fed into the ViT Backbone for feature encoding. The proposed MLP Block and Cross Fusion module are employed to explore latent features and fuse them respectively. Finally, these features are mapped to a shared embedding space through the Classifier layer.
+Here is our **SketchViT** framework. After undergoing data augmentation, the sketches and images from each minibatch are used as inputs and fed into the ViT Backbone for feature encoding. The proposed **MLP Block** and **Cross Fusion module** are employed to explore latent features and fuse them respectively. Finally, these features are mapped to a shared embedding space through the Classifier layer.
 
 Our pre-trained model is avialable [here](https://drive.google.com/drive/folders/1q9ZBhmFUC4NdkF-uRvgiArvxWUVPSo_x).
 
