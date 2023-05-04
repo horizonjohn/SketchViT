@@ -1,17 +1,22 @@
 # SketchViT
-Fine-Grained Sketch-Based Image Retrieval
+
+A framework for Fine-Grained Sketch-Based Image Retrieval (FG-SBIR).
 
 ## 1. Introduction
 
 ### 1.1 Framework
 
-<div align=center><img src="./figs/framework.png" width = 80%></div>
+Here is our **SketchViT** framework. 
 
 <br>
 
-Here is our **SketchViT** framework. After undergoing data augmentation, the sketches and images from each minibatch are used as inputs and fed into the ViT Backbone for feature encoding. The proposed **MLP Block** and **Cross Fusion module** are employed to explore latent features and fuse them respectively. Finally, these features are mapped to a shared embedding space through the Classifier layer.
+<div align=center><img src="./figs/framework.png" width = 90%></div>
 
-Our pre-trained model is avialable [here](https://drive.google.com/drive/folders/1q9ZBhmFUC4NdkF-uRvgiArvxWUVPSo_x).
+<br>
+
+After undergoing data augmentation, the sketches and images from each minibatch are used as inputs and fed into the ViT Backbone for feature encoding. The proposed **MLP Block** and **Cross Fusion module** are employed to explore latent features and fuse them respectively. Finally, these features are mapped to a shared embedding space through the Classifier layer.
+
+Our pre-trained model is avialable [**SketchViT Weights**](https://drive.google.com/drive/folders/1q9ZBhmFUC4NdkF-uRvgiArvxWUVPSo_x).
 
 ### 1.2 Clothes-V1
 
@@ -19,13 +24,13 @@ Our pre-trained model is avialable [here](https://drive.google.com/drive/folders
 
 <br>
 
-The Clothes-V1 is a newly proposed Fine-Grained Sketch-Based Image Retrieval (FG-SBIR) dataset that aims to facilitate the search for fashion clothing materials by fashion designers.
+The Clothes-V1 is a newly proposed FG-SBIR dataset that aims to facilitate the search for fashion clothing materials by fashion designers.
 
 The dataset consists of 1200 sketches and 500 corresponding images, which were split into training and test set with ratios of 925 (380) and 275 (120), respectively.
 
 The sketches were drawn by four professional designers and three junior designers, and the sketches are named using the format **xxxxx_0x.png**, where **xxxxx.png** denotes the corresponding image, and **_0x** denotes the designer (e.g., sketch **00066_01.png** and **00066_06.png** correspond to image **00066.png** and were drawn by designers **01** and **06**, respectively). 
 
-For more details, you can download the dataset here: [**Clothes-V1**](https://drive.google.com/drive/folders/1630UOV7AFPd2BwjgmZHz8igFAZ68mvnR).
+For more details, you can download the [**Clothes-V1**](https://drive.google.com/drive/folders/1630UOV7AFPd2BwjgmZHz8igFAZ68mvnR).
 
 <br>
 
