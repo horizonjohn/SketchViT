@@ -3,7 +3,22 @@ Fine-Grained Sketch-Based Image Retrieval
 
 ## 1. Introduction
 
+### 1.1 Framework
 
+
+Our pre-trained model is avialable [here](https://drive.google.com/drive/folders/1q9ZBhmFUC4NdkF-uRvgiArvxWUVPSo_x)
+
+### 1.2 Clothes-V1
+
+<div align=center><img src="./figs/clothes.png" width = 80%></div>
+
+The Clothes-V1 is a newly proposed Fine-Grained Sketch-Based Image Retrieval (FG-SBIR) dataset that aims to facilitate the search for fashion clothing materials by fashion designers.
+
+The dataset consists of 1200 sketches and 500 corresponding images, which were split into training and test set with ratios of 925 (380) and 275 (120), respectively. The sketches were drawn by four professional designers and three junior designers, and the sketches are named using the format xxxxx_0x.png, where xxxxx.png denotes the corresponding image, and _0x denotes the designer (e.g., sketch 00066_01.png and 00066_06.png correspond to image 00066.png and were drawn by designers 01 and 06, respectively). 
+
+For more details, you can download the dataset here: [(Clothes-V1)](https://drive.google.com/drive/folders/1630UOV7AFPd2BwjgmZHz8igFAZ68mvnR).
+
+<br>
 
 ## 2. Experimental Results
 
@@ -53,6 +68,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 </div>
 
+<br>
 
 ## 3. Ablation Study
 
@@ -121,6 +137,7 @@ Fine-Grained Sketch-Based Image Retrieval
 
 </div>
 
+<br>
 
 ## 4.  Visualization
 
