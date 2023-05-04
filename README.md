@@ -20,10 +20,10 @@ Our pre-trained model is avialable [**SketchViT Weights**](https://drive.google.
 
 #### 1.1.1 Train model
 
-- (i) First, download the above data, or you can also rename your own data according to the above data naming format.
-- (ii) Put the dataset into (./src/datasets/) directory.
-- (iii) You can adjust the parameters of the model according to your needs.
-- (iv) Use the following command for model training:
+- Download the above data, or you can also rename your own data according to the above data naming format.
+- Put the dataset into (./src/datasets/) directory.
+- You can adjust the parameters of the model according to your needs.
+- Use the following command for model training :
 
 ```
 cd ./src
@@ -33,7 +33,7 @@ python main.py --dataset ClothesV1
 
 #### 1.1.2 Evaluate model
 
-- Modify the path of the training model and use the following command:
+- Modify the path of the training model and use the following command :
 
 ```
 python accuracy.py
