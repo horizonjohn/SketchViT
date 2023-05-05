@@ -127,7 +127,6 @@ def train_model(args):
 
             # loss = (cross_loss_1 + cross_loss_2) + (cross_loss_3 + cross_loss_4) + cross_loss_5
             loss = 0.5 * (cross_loss_1 + cross_loss_2) + 0.1 * (cross_loss_3 + cross_loss_4) + 0.4 * cross_loss_5
-            # loss = 0.5 * ((cross_loss_1 + cross_loss_2) / 44) + 0.1 * (cross_loss_3 + cross_loss_4) + 0.4 * (cross_loss_5 / 7)
 
             scaler.scale(loss).backward()
             scaler.step(optimizer)
