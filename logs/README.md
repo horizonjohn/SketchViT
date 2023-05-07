@@ -4,9 +4,11 @@ A framework for Fine-Grained Sketch-Based Image Retrieval (FG-SBIR).
 
 ### 2.1 QMUL-Chair-V2
 
-Since some baselines do not provide access to the source code or the key parts of the code, it can be difficult to reproduce their results, or the reproducible results may not be satisfactory. Therefore, we use the data submitted by the authors in their papers as the baselines.
+Since some baselines do not disclose their source code or important parts of their code, it can be difficult to reproduce their results, or the reproducible results may not be satisfactory. Therefore, we use the data submitted by the authors in their papers as the baselines.
 
 Our training was performed on a single Nvidia GeForce GTX 1080Ti 11G GPU, while the baselines were trained on either a single Nvidia GeForce RTX 2080Ti 11G or a single Nvidia GeForce RTX 3090 24G GPU. For the Nvidia GeForce RTX 3090 24G GPU case, we trained on a single Nvidia GeForce RTX 4090 24G GPU and the results were not great either.
+
+<br>
 
 <div align=left>
 
