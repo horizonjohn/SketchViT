@@ -28,7 +28,7 @@ In response to the reviewers' suggestion, we have conducted additional experimen
 
 - **SketchViT without Cross Fusion and SketchViT without MLP Block**: In these separate experiments, we removed either the Cross Fusion module or the MLP Block module from our model. The contrastive loss function was still used for training in both cases.
 
-- **SketchViT using $feat_{mlp}$ **: In this experiment, we modified the MLP Block module to directly utilize the output feature $feat_{mlp}$ as the final output $feat_{out}$. The remaining components and the contrastive loss function were kept unchanged.
+- **SketchViT using $feat_{mlp}$**: In this experiment, we modified the MLP Block module to directly utilize the output feature $feat_{mlp}$ as the final output $feat_{out}$. The remaining components and the contrastive loss function were kept unchanged.
 
 - **SketchViT**: This refers to our complete model, including both the Cross Fusion and MLP Block modules. All the other comparison experiments were performed using new equipment to ensure consistent experimental conditions and control variables.
 
