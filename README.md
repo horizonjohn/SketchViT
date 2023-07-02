@@ -4,7 +4,7 @@ A framework for Fine-Grained Sketch-Based Image Retrieval (FG-SBIR).
 
 ## Section for Reviewers
 
-### 1. New Experimental Results
+### New Experimental Results
 
 In response to the reviewers' suggestion, we have conducted additional experiments to evaluate the usability and effectiveness of our proposed model. These experiments were performed using a single Tesla V100 GPU to expedite the training process and obtain results promptly. Except for the different models, other parameter settings are the same. The experiments are as follows:
 
