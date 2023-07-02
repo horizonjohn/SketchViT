@@ -8,7 +8,9 @@ A framework for Fine-Grained Sketch-Based Image Retrieval (FG-SBIR).
 
 In response to the reviewers' suggestion, we have conducted additional experiments to evaluate the usability and effectiveness of our proposed model. These experiments were performed using a single Tesla V100 GPU to expedite the training process and obtain results promptly. Except for the different models, other parameter settings are the same. The experiments are as follows:
 
-<div align=left>
+<br>
+
+<div align=center>
 
 | Methods |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -16,21 +18,25 @@ In response to the reviewers' suggestion, we have conducted additional experimen
 | SketchViT w/o MLP Block | 52.67 | 83.99 | 92.17 |  [logs](./logs/load/a.log)  |
 | SketchViT w/o Cross Fusion | 52.67 | 83.99 | 92.17 |  [logs](./logs/load/a.log)  |
 | SketchViT use $feat_{mlp}$ | 52.67 | 83.99 | 92.17 |  [logs](./logs/load/a.log)  |
-| SketchViT | **67.62** | **91.10** | **95.37** |  [logs](./logs/ours.log)  |
+| **SketchViT** | **67.62** | **91.10** | **95.37** |  [logs](./logs/ours.log)  |
 
 </div>
 
+<br>
 
 - **SketchViT without Cross Fusion & MLP Block**: In this experiment, we removed the Cross Fusion and MLP Block modules from our model. Instead, we directly use the ViT model for feature extraction and optimized the training using the contrastive loss function.
 
 - **SketchViT without Cross Fusion and SketchViT without MLP Block**: In these separate experiments, we removed either the Cross Fusion module or the MLP Block module from our model. The contrastive loss function was still used for training in both cases.
 
-- **SketchViT using $feat_{mlp}$**: In this experiment, we modified the MLP Block module to directly utilize the output feature $feat_{mlp}$ as the final output $feat_{out}$. The remaining components and the contrastive loss function were kept unchanged.
+- **SketchViT using $feat_{mlp}$ **: In this experiment, we modified the MLP Block module to directly utilize the output feature $feat_{mlp}$ as the final output $feat_{out}$. The remaining components and the contrastive loss function were kept unchanged.
 
 - **SketchViT**: This refers to our complete model, including both the Cross Fusion and MLP Block modules. All the other comparison experiments were performed using new equipment to ensure consistent experimental conditions and control variables.
 
 By conducting these additional experiments, we aim to provide a comprehensive evaluation of our proposed model's performance and understand the contributions of the Cross Fusion and MLP Block modules. These experiments will enable us to compare the effectiveness of different configurations and assess the impact of each module on the overall performance of SketchViT.
 
+
+<br>
+<br>
 
 
 ## 1. Introduction
