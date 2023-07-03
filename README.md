@@ -14,11 +14,11 @@ In response to the reviewers' suggestion, we have conducted additional experimen
 
 | Methods |  Acc.@1  |  Acc.@5  |  Acc.@10  |  logs  |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
-| SketchViT w/o Cross Fusion & MLP Block | 52.67 | 83.99 | 92.17 |  [logs](./logs/load/a.log)  |
-| SketchViT w/o MLP Block | 52.67 | 83.99 | 92.17 |  [logs](./logs/load/a.log)  |
-| SketchViT w/o Cross Fusion | 52.67 | 83.99 | 92.17 |  [logs](./logs/load/a.log)  |
-| SketchViT use $feat_{mlp}$ | 52.67 | 83.99 | 92.17 |  [logs](./logs/load/a.log)  |
-| **SketchViT** | **67.62** | **91.10** | **95.37** |  [logs](./logs/ours.log)  |
+| SketchViT w/o Cross Fusion & MLP Block | 59.431 | 88.256 | 95.374 |  [logs](./logs/review/cross_mlp.log)  |
+| SketchViT w/o MLP Block | 66.548 | 92.527 | 95.730 |  [logs](./logs/review/mlp.log)  |
+| SketchViT w/o Cross Fusion | 66.904 | 92.171 | 96.085 |  [logs](./logs/review/cross.log)  |
+| SketchViT use $feat_{mlp}$ | 52.67 | 83.99 | 92.17 |  [logs](./logs/review/f.log)  |
+| **SketchViT** | **67.616** | **92.527** | **96.441** |  [logs](./logs/review/main.log)  |
 
 </div>
 
