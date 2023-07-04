@@ -4,7 +4,7 @@ A framework for Fine-Grained Sketch-Based Image Retrieval (FG-SBIR).
 
 ## Section for Reviewers
 
-### New Experimental Results
+### 01 New Experimental Results （Ablation Study）
 
 In response to the reviewers' suggestion, we have conducted additional experiments to evaluate the usability and effectiveness of our proposed model. These experiments were performed using a single Tesla V100 GPU to expedite the training process and obtain results promptly. Except for the different models, other parameter settings are the same. The experiments are as follows:
 
@@ -34,6 +34,28 @@ In response to the reviewers' suggestion, we have conducted additional experimen
 
 By conducting these additional experiments, we aim to provide a comprehensive evaluation of our proposed model's performance and understand the contributions of the Cross Fusion and MLP Block modules. These experiments will enable us to compare the effectiveness of different configurations and assess the impact of each module on the overall performance of SketchViT.
 
+
+<br>
+<br>
+
+### 02 Feature Extraction Capability （MLP Block）
+
+We conducted 2 classification task experiments on 3 datasets and obtained their mean and variance to verify that our improved model has better feature extraction capabilities and is stable and effective. The experimental results are as follows:
+
+<div align=left>
+
+| Backbone (Acc.@1) |  CIFAR-10  |  CIFAR-100  |  Tiny ImageNet  |  logs  |
+|:--------:|:--------:|:--------:|:--------:|:--------:|
+| ViT-S/16 | 98.418±0.058 | **90.100±0.024** | 83.365±0.036 |  [logs](./logs/mlp/ViT_S/)  |
+| **ViT-S/16(MLP)** | **98.605±0.000** | 89.965±0.004 | **83.825±0.174** |  [logs](./logs/mlp/MLP_S)  |
+| ViT-B/16 | 98.195±0.008 | 88.340±0.010 | 81.335±0.006 |  [logs](./logs/mlp/ViT_B)  |
+| **ViT-B/16(MLP)** | **98.330±0.001** | **88.475±0.054** | **81.925±0.018** |  [logs](./logs/mlp/MLP_B)  |
+
+</div>
+
+<br>
+
+In the revised version of the paper, we will add more experiments to further test its steady growth performance and test on more ViT models. We believe that our MLP Block is very effective for aggregating features of discarded patches.
 
 <br>
 <br>
